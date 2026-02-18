@@ -143,13 +143,20 @@ if (localStorage.getItem("isAdmin") !== "true") {
 
 <header>
   <div class="nav">
-    <div class="logo">SHE BAKES • Admin</div>
+    
+    <div class="logo">
+      <img src="images/logo.png" alt="She Bakes Logo">
+      <span>SHE BAKES • Admin</span>
+    </div>
+
     <div class="nav-links">
       <a href="#orders">Track Orders</a>
       <button onclick="logout()">Logout</button>
     </div>
+
   </div>
 </header>
+
 
 <div class="container" id="orders">
   <div id="ordersList">Loading orders...</div>
